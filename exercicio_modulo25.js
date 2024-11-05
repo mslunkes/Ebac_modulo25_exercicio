@@ -9,5 +9,4 @@ const alunos = [
 const alunosAprovados = (alunos) => {
     return alunos.filter (aluno => aluno.nota >= 6)
 }
-
 console.log(alunosAprovados(alunos))
